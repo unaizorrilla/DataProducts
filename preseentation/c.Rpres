@@ -1,0 +1,44 @@
+
+========================================================
+author: Unai Zorrilla Castro
+date: 25/4/2016 
+autosize: true
+
+MTCars Prediction
+========================================================
+
+Presentation about Shiny app for get MPG prediction based on MTCars dataset. <https://unaizc.shinyapps.io/CourseraDataProduct/>.
+
+
+Data
+========================================================
+
+MTCars Shiny app is created using the 'datasets' library and mtcars data, a sample of this data is showed here:
+
+```{r}
+library(datasets)
+data("mtcars")
+
+head(mtcars,10)
+
+```
+
+
+Model
+========================================================
+The model to be used include data for Horse Power, Weight and Transmission mode.
+
+```{r, echo=FALSE}
+
+model<-lm(mpg~hp + wt + am,data=mtcars)
+
+summary(model)
+
+```
+
+
+Predictions
+========================================================
+
+The app show predictions for this model using 3 text box on the slider panel and get result of prection on the main panel
+

@@ -1,0 +1,9 @@
+name: CourseraDataProduct
+account: unaizc
+server: shinyapps.io
+appId: 98092
+bundleId: 433948
+url: https://unaizc.shinyapps.io/CourseraDataProduct/
+when: 1461609811.01773
+asMultiple: FALSE
+asStatic: FALSE
