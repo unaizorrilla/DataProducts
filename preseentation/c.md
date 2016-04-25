@@ -70,5 +70,6 @@ F-statistic: 48.96 on 3 and 28 DF,  p-value: 2.908e-11
 Predictions
 ========================================================
 
-The app show predictions for this model using 3 text box on the slider panel and get result of prection on the main panel
+The app show predictions for this model using 3 text box on the slider panel and get result of prection on the main panel.
 
+[App]: https://raw.githubusercontent.com/unaizorrilla/DataProducts/master/preseentation/Figure.png "App Caption"
